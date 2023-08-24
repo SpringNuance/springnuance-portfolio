@@ -45,7 +45,7 @@ export default function Contact() {
           /> */}
               {/* Replace the iframe with an img element */}
           <img
-              src="./isometric.png" // Replace with the path to your image
+              src="./isometric_nobg.png" // Replace with the path to your image
               alt="Isometric_image" // Provide a brief description of the image for accessibility
               className="w-full h-auto" // This will make the image cover the entire container
           />

@@ -2,7 +2,7 @@
 
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-import { projects } from "../data";
+import { mechProjects } from "../data";
 
 export default function MechProjects() {
   return (
@@ -20,7 +20,7 @@ export default function MechProjects() {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {mechProjects.map((project) => (
             <a
               href={project.link}
               key={project.image}

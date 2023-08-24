@@ -2,7 +2,7 @@
 
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
-import { projects } from "../data";
+import { dataProjects } from "../data";
 
 export default function DataProjects() {
   return (
@@ -11,7 +11,7 @@ export default function DataProjects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Data Analytics Projects I've built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
@@ -20,7 +20,7 @@ export default function DataProjects() {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {dataProjects.map((project) => (
             <a
               href={project.link}
               key={project.image}
